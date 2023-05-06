@@ -15,7 +15,7 @@ FindCoobTable(number);
 
 void FindCoobTable(int x)
 {
-    while(i <= number)
+    while(i <= x)
     {
         Console.WriteLine("Таблица кубов заданного числа: " + i * i * i);
         i++;
